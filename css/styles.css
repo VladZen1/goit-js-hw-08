@@ -14,9 +14,7 @@
   box-sizing: border-box;
   overflow: hidden;
 }
-/* .gallery-image {
-  flex-shrink: 0;
-} */
+
 img:hover {
   cursor: url('../img/Vector.png'), pointer;
 }
