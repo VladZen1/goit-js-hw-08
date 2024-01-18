@@ -12,10 +12,11 @@
 .gallery-item {
   width: calc((100% - 48px) / 3);
   box-sizing: border-box;
+  overflow: hidden;
 }
-.gallery-image {
+/* .gallery-image {
   flex-shrink: 0;
-}
+} */
 img:hover {
   cursor: url('../img/Vector.png'), pointer;
 }
@@ -26,4 +27,8 @@ img:hover {
 .gallery-image:hover,
 .gallery-image:focus {
   transform: scale(1.02);
+}
+
+img {
+  display: block;
 }
