@@ -19,3 +19,11 @@
 img:hover {
   cursor: url('../img/Vector.png'), pointer;
 }
+.gallery-image {
+  transform: scale(1);
+  transition: transform 250ms ease-out;
+}
+.gallery-image:hover,
+.gallery-image:focus {
+  transform: scale(1.02);
+}
